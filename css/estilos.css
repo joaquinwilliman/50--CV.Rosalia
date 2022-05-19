@@ -1,0 +1,93 @@
+
+
+body{
+
+    background-color: #FEFCF9;
+    color: #C1272D;
+    font-family: 'Carter One', cursive;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.divtodoelcontenido { width: 90%; margin: auto; }
+
+
+.franjabordo { background-color: #C1272D; display: flex; }
+.titulos { color: #FEFCF9; text-align: center; }
+
+.infoedad { color: #FEFCF9; text-align: center; }
+
+.cajaconfoto { text-align: center; }
+.fotoredonda { width: 35%; border-radius: 50%; margin: 20px; }
+
+.nombre { padding: 0px; }
+.nombrerosalia { font-size: 100px; margin: 20px; margin-left: 10%;}
+.lineanombre { width: 80%; size: 20px; font-size: 20px; }
+
+
+
+.infoprimaria { margin-bottom: 5%;  border-top: 4px #C1272D solid;  }
+
+.contenidogeneral { display: flex; }
+
+
+.cajaformacionacademica { margin-bottom: 5%; }
+.subtitulos { padding: 0% !important; margin: 0% !important; }
+
+.discografia { margin-left: 5%; }
+
+.contenedorrevistas { display: flex; justify-content: center;}
+.fotovogue { width: 100%; }
+.imagenesrevista { width: 20%; margin: 5%; }
+.años { text-align: center; }
+
+.añosalbum { font-size: 15px; text-align: center; }
+
+footer { background-color: #C1272D; color: #FEFCF9; text-align: center;}
+i { color: #FEFCF9; font-size: 40px; margin: 10px;}
+i:hover { opacity: 50%; }
+
+
+
+@media (max-width: 830px) {
+
+  .contenidogeneral {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+    .contenedorrevistas {
+      display: flex;
+      justify-content: center;
+  }
+
+    .cajacondatos { margin: 5%; }
+    
+    .fotoredonda {
+      width: 80%;
+      border-radius: 50%;
+      margin: 20px;}
+
+
+  
+  
+
+
+
+}
+
+
+
+@media (max-width: 480px) { 
+  .franjabordo { flex-direction: column; }
+  .nombre { text-align: center; }
+  .fotoredonda { width: 65%; }
+  .nombrerosalia { font-size: 60px; margin: 20px;}
+  .contenidogeneral { margin-top: 5%;; display: flex; flex-direction: column-reverse;}
+  .contenedorrevistas { display: flex; flex-direction: column-reverse;}
+  .imagenesrevista { width: 90%; margin: auto;}
+
+
+
+
+}
